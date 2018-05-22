@@ -56,6 +56,7 @@ public class RefrigeratedTruckImpl extends AbstractTruck implements Refrigerated
      * @author Matthew Miller
      */
     public static class RefrigeratedTruckBuilderImpl implements RefrigeratedTruck.RefrigeratedBuilder {
+
         private Stock cargo;
 
         @Override
