@@ -5,6 +5,14 @@ package com.me4502.supermart.exception;
  *
  * @author Matthew Miller
  */
-public class CSVFormatException extends IllegalArgumentException {
+public class CSVFormatException extends Exception {
 
+    /**
+     * Creates a CSVFormatException with a custom message.
+     *
+     * @param message The message
+     */
+    public CSVFormatException(String message) {
+        super(message);
+    }
 }
