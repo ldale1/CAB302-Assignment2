@@ -19,6 +19,11 @@ import org.junit.Test;
 import java.util.List;
 import java.util.OptionalDouble;
 
+/**
+ * Tests functionality of the Stock class.
+ *
+ * @author Matthew Miller
+ */
 public class StockTest {
 
     @Before
